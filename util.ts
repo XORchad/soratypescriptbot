@@ -1,8 +1,6 @@
 import { api } from '@sora-substrate/util';
 import { connection } from '@sora-substrate/connection';
 import { SORA_ENV } from '@sora-substrate/types/scripts/consts';
-import * from 'credentials';
-// import { mnemonicGenerate } from '@polkadot/util-crypto'; // TODO: use it within the faucet
 
 const TST_MNEMONIC = 'friend shuffle alien sniff maid dog tomorrow face sponsor place man quantum';
 
@@ -19,7 +17,6 @@ export async function connectAndImportAccount(
   console.info('Connected: ' + env);
   await api.initialize(withKeyringLoading);
   await api.calcStaticNetworkFees();
-  // salon muscle select culture inform pen typical object fox fruit culture civil
   api.importAccount(mnemonic ?? TST_MNEMONIC, 'name', 'pass');
 }
 

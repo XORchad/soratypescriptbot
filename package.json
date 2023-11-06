@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run-swap": "node -r ts-node/register -r tsconfig-paths/register swap.ts",
+    "run-quote": "node -r ts-node/register -r tsconfig-paths/register quote.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
