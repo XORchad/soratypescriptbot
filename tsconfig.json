@@ -1,5 +1,4 @@
 {
-  "extends": "./node_modules/@polkadot/dev/config/tsconfig",
   "compilerOptions": {
     "module": "none",
     "moduleResolution": "node",
@@ -24,8 +23,8 @@
       "@sora-substrate/types/*": ["packages/types/src/*"],
       "@sora-substrate/type-definitions": ["packages/type-definitions/src"],
       "@sora-substrate/type-definitions/*": ["packages/type-definitions/src/*"],
-      "@sora-substrate/util": ["packages/util/src"],
-      "@sora-substrate/util/*": ["packages/util/src/*"],
+      "@sora-substrate/util": ["node_modules/@sora-substrate/util/src"],
+      "@sora-substrate/util/*": ["node_modules/@sora-substrate/util/src/*"],
       "@sora-substrate/math": ["packages/math/src"],
       "@sora-substrate/math/*": ["packages/math/src/*"],
       "@sora-substrate/liquidity-proxy": ["packages/liquidity-proxy/src"],

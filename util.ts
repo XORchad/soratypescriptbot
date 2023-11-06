@@ -1,9 +1,10 @@
 import { api } from '@sora-substrate/util';
 import { connection } from '@sora-substrate/connection';
 import { SORA_ENV } from '@sora-substrate/types/scripts/consts';
+import * from 'credentials';
 // import { mnemonicGenerate } from '@polkadot/util-crypto'; // TODO: use it within the faucet
 
-const TST_MNEMONIC = 'street firm worth record skin taste legend lobster magnet stove drive side';
+const TST_MNEMONIC = 'friend shuffle alien sniff maid dog tomorrow face sponsor place man quantum';
 
 export async function delay(ms = 40000): Promise<void> {
   await new Promise((resolve) => setTimeout(resolve, ms));
