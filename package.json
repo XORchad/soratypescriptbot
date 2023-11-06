@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "run-swap": "node -r ts-node/register -r tsconfig-paths/register swap.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@sora-substrate/util": "^1.24.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
   }
 }

@@ -1,5 +1,5 @@
 # soratypescriptbot
-A Type Script Bot to interact with Sora Network
+A TypeScript Bot to interact with Sora Network
 
 #required
 npm install @sora-substrate/util
