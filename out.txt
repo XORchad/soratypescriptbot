@@ -1,0 +1,93 @@
+npm run run-quote
+
+> soratypescriptbot@1.0.0 run-quote
+> node -r ts-node/register -r tsconfig-paths/register quote.ts
+
+@polkadot/util has multiple versions, ensure that there is only one installed.
+Either remove and explicitly install matching versions or dedupe using your package manager.
+The following conflicting packages were found:
+	10.4.2	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/util/cjs
+	7.9.2 	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/api/node_modules/@polkadot/util
+@polkadot/keyring has multiple versions, ensure that there is only one installed.
+Either remove and explicitly install matching versions or dedupe using your package manager.
+The following conflicting packages were found:
+	10.4.2	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/keyring/cjs
+	7.9.2 	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/api/node_modules/@polkadot/keyring
+@polkadot/util-crypto has multiple versions, ensure that there is only one installed.
+Either remove and explicitly install matching versions or dedupe using your package manager.
+The following conflicting packages were found:
+	10.4.2	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/util-crypto/cjs
+	7.9.2 	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/api/node_modules/@polkadot/util-crypto
+@polkadot/wasm-crypto has multiple versions, ensure that there is only one installed.
+Either remove and explicitly install matching versions or dedupe using your package manager.
+The following conflicting packages were found:
+	6.4.1	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/wasm-crypto/cjs
+	4.6.1	<unknown>
+@polkadot/util has multiple versions, ensure that there is only one installed.
+Either remove and explicitly install matching versions or dedupe using your package manager.
+The following conflicting packages were found:
+	10.4.2	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/util/cjs
+	7.9.2 	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/api/node_modules/@polkadot/util
+	7.9.2 	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/types-known/node_modules/@polkadot/util
+@polkadot/util has multiple versions, ensure that there is only one installed.
+Either remove and explicitly install matching versions or dedupe using your package manager.
+The following conflicting packages were found:
+	10.4.2	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/util/cjs
+	7.9.2 	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/api/node_modules/@polkadot/util
+	7.9.2 	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/types-known/node_modules/@polkadot/util
+	7.9.2 	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/api-derive/node_modules/@polkadot/util
+@polkadot/util-crypto has multiple versions, ensure that there is only one installed.
+Either remove and explicitly install matching versions or dedupe using your package manager.
+The following conflicting packages were found:
+	10.4.2	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/util-crypto/cjs
+	7.9.2 	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/api/node_modules/@polkadot/util-crypto
+	7.9.2 	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/api-derive/node_modules/@polkadot/util-crypto
+@polkadot/wasm-crypto has multiple versions, ensure that there is only one installed.
+Either remove and explicitly install matching versions or dedupe using your package manager.
+The following conflicting packages were found:
+	6.4.1	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/wasm-crypto/cjs
+	4.6.1	<unknown>
+	4.6.1	<unknown>
+@polkadot/types has multiple versions, ensure that there is only one installed.
+Either remove and explicitly install matching versions or dedupe using your package manager.
+The following conflicting packages were found:
+	5.9.1	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/api/node_modules/@polkadot/types
+	5.9.1	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/api-derive/node_modules/@polkadot/types
+@polkadot/rpc-core has multiple versions, ensure that there is only one installed.
+Either remove and explicitly install matching versions or dedupe using your package manager.
+The following conflicting packages were found:
+	5.9.1	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/api-derive/node_modules/@polkadot/rpc-core
+	5.9.1	/home/soma/Crypto/SoraTypeScriptBot/node_modules/@polkadot/api/node_modules/@polkadot/rpc-core
+@polkadot/rpc-provider has multiple versions, ensure that there is only one installed.
+Either remove and explicitly install matching versions or dedupe using your package manager.
+The following conflicting packages were found:
+	    5.9.1 	node_modules/@polkadot/api/node_modules/@polkadot/rpc-provider
+	cjs 9.14.2	node_modules/@polkadot/rpc-provider/cjs
+@polkadot/rpc-core has multiple versions, ensure that there is only one installed.
+Either remove and explicitly install matching versions or dedupe using your package manager.
+The following conflicting packages were found:
+	    5.9.1 	node_modules/@polkadot/api-derive/node_modules/@polkadot/rpc-core
+	    5.9.1 	node_modules/@polkadot/api/node_modules/@polkadot/rpc-core
+	cjs 9.14.2	node_modules/@polkadot/rpc-core/cjs
+@polkadot/types has multiple versions, ensure that there is only one installed.
+Either remove and explicitly install matching versions or dedupe using your package manager.
+The following conflicting packages were found:
+	    5.9.1 	node_modules/@polkadot/api/node_modules/@polkadot/types
+	    5.9.1 	node_modules/@polkadot/api-derive/node_modules/@polkadot/types
+	cjs 9.14.2	node_modules/@polkadot/types/cjs
+/home/soma/Crypto/SoraTypeScriptBot/node_modules/@sora-substrate/types/scripts/consts.ts:1
+export enum SORA_ENV {
+^^^^^^
+
+SyntaxError: Unexpected token 'export'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1205:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/soma/Crypto/SoraTypeScriptBot/node_modules/ts-node/src/index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (/home/soma/Crypto/SoraTypeScriptBot/util.js:42:16)
+
