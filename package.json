@@ -2,9 +2,8 @@
   "name": "soratypescriptbot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "test.js",
   "scripts": {
-    "run-quote": "node -r ts-node/register -r tsconfig-paths/register quote.ts",
     "run-test": "node -r ts-node/register -r tsconfig-paths/register test.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +15,7 @@
     "tsconfig-paths": "^4.2.0"
   },
   "dependencies": {
-    "@polkadot/rpc-core": "^5.9.1",
-    "@polkadot/types": "^5.9.1",
-    "@polkadot/util": "^7.9.2",
-    "@polkadot/util-crypto": "^7.9.2"
+    "@sora-substrate/connection": "^1.24.2",
+    "@sora-substrate/util": "^1.24.2"
   }
 }
